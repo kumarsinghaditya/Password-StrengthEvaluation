@@ -2,16 +2,27 @@
 
 Evaluate the strength of your entered password in one go!
 
-To ensure diversity, assurance and correctness of our results, we output the strength of the passcode using different Machine Learning models and also have extended the project to apply deep learning to it by using an ANN.
+
+<img width="868" alt="102" src="https://user-images.githubusercontent.com/92226347/174485965-bd411c20-9208-479a-bfb9-20b3bfe20262.png">
+
+
+To ensure diversity, assurance and correctness of our results, the strength of the passcode is depicted using different Machine Learning models and also, it is extended by applying deep learning to it by using ANN.
 
 The machine learning models are trained and dumped into joblib files to avoid recomputing the same function repetitively which ulitmately saves a lot of time.
 
-The models used are:
+The models used to predict results are:
 
 1) Logistic Regression
 2) Naive Bayes
 3) Decision Tree
 3) Multi Layer Perceptron Network (ANN)
+
+
+To provide a comparitive analysis over the strength of the password, machine learning as well as standard rules for rating password are also used so as to generate a Password Metric score simultaneosly.
+
+
+<img width="868" alt="102" src="https://user-images.githubusercontent.com/92226347/174485864-c645b129-5808-44b9-9cb4-a5af88f8a280.png">
+
 
 # Installation
 
