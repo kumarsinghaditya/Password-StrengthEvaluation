@@ -19,6 +19,10 @@ The models used are:
 
       git clone https://github.com/kumarsinghaditya/Password-StrengthEvaluation.git
     
+• To run the project:
+      
+      python nordpass.py
+
 • Note: If the version mismatches, the joblib files might fail to be dumped and would not load. In that case, try training the models and overwrite the joblib files.
 
       python DecisionTree.py
