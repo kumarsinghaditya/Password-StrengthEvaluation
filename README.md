@@ -15,7 +15,10 @@ The models used are:
 
 # Installation
 
+• To run the project, clone the project into your PC/Mac:
 
+      git clone https://github.com/kumarsinghaditya/Password-StrengthEvaluation.git
+    
 • Note: If the version mismatches, the joblib files might fail to be dumped and would not load. In that case, try training the models and overwrite the joblib files.
 
       python DecisionTree.py
