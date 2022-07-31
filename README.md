@@ -34,6 +34,10 @@ To provide a comparitive analysis over the strength of the password, machine lea
       
       python nordpass.py
 
+• Runs the website in the development mode.
+
+      Open http://172.17.60.117:4000/ to view in your browser after successfully compiling the project.
+
 • Note: If the version mismatches, the joblib files might fail to be dumped and would not load. In that case, try training the models and overwrite the joblib files.
 
       python DecisionTree.py
