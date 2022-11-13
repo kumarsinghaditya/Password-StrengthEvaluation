@@ -1,1 +1,1 @@
-web: gunicorn nordpass:nordpass
+web: gunicorn -b :$PORT nordpass:nordpass
